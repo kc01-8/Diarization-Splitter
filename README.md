@@ -7,11 +7,12 @@ This project was designed for https://github.com/MahmoudAshraf97/whisper-diariza
 and the files it produces, that is a .srt file with each individual speaker
 being denoted by "Speaker X:" in the file.
 
-> [!IMPORTANT] # How to use
+# How to use
+> [!IMPORTANT]
 > Place split.ps1 in a convenient location, likely inside of the whisper diarization folder.
 > Use the following command to split it into x separate files, x being the total number of speakers.
 
-`.\split.ps1 -InputFile .\audio.srt`
+> `.\split.ps1 -InputFile .\audio.srt`
 
 Here's an example of the end message when it runs successfully:
 ```
