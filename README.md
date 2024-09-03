@@ -10,10 +10,11 @@ being denoted by "Speaker X:" in the file.
 # How to use
 > [!IMPORTANT]
 > Place split.ps1 in a convenient location, likely inside of the whisper diarization folder.
-> Use the following command to split it into x separate files, x being the total number of speakers.
->   `.\split.ps1 -InputFile .\audio.srt`
+> Use the following command to split the srt file:
+> `.\split.ps1 -InputFile .\audio.srt`
 
-Here's an example of the end message when it runs successfully:
+
+### Here's an example of the end message when it runs successfully:
 ```
 Speakers found: Speaker_0
 Created file: Speaker_0.srt with 377 blocks
