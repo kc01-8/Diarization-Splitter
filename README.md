@@ -4,7 +4,7 @@ It is extremely useful for editing in davinci resolve where each subtitle track 
 mutliple regions, which can be color coded or otherwise enhanced for clarity.
 
 This project was designed for https://github.com/MahmoudAshraf97/whisper-diarization
-and the files it produces, that is a .srt file with each individual speaker
+and the files it produces, that is an .srt file with each individual speaker
 being denoted by "Speaker X:" in the file.
 
 # How to use
