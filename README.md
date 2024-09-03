@@ -10,7 +10,7 @@ being denoted by "Speaker X:" in the file.
 # How to use
 > [!IMPORTANT]
 > Place split.ps1 in a convenient location, likely inside of the whisper diarization folder.
-> Use the following command to split the srt file:
+> Use the following command to split the srt file for x speakers, where audio.srt is your input srt file:
 > `.\split.ps1 -InputFile .\audio.srt`
 
 
